@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yousef/ontologies/2021/2/ICP8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yousef/ontologies/2021/2/ICP8">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Bill_Gates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elon_Musk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foundation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Queen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#They"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attention_on"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#born_to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chief_designer_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#co-chair_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#co-founder_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dual_bachelor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#expand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#focus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#founder_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#graduated_from"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#graduated_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#its_Amazon_Web_Services_branch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#largest_online_sales_company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multi-national_technology_company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#of_founder_is"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#participate_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#raised_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#received"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#richest_people"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#richest_person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#richest_person_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shapes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#startup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#virtual_assistants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#was_acquired_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#worked_on"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#world"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dual_bachelor_&apos;s_degrees"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Amazon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#American_internet_entrepreneur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BG"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Bill_Gates_Foundation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Boring_Company"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Canadian_mother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Compaq"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Forbes_Real_Time_Billionaires_ranking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Grant_making_strategies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#JB"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Neuralink"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pretoria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#South_Africa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SpaceX"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#University_of_Pennsylvania"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wall_Street"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attention"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co-chair"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co-chair_Melinda_Gates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#degree_in_electrical_engineering_science"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#degrees_in_economics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#event"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#founder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#internet_entrepreneur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#issues"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#most_disadvantaged_people"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#multi-national_technology_company"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#national_events"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#technology_company"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#world"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#1986"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#opportunity_to_world_’s_most_disadvantaged_people"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#He"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bill_Gates"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elon_Musk"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foundation"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeffrey_Bezos"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Queen"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#They"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attended"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attention_on"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#born_to"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chief_designer_of"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#co-chair_of"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#co-founder_of"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#degree"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dual_bachelor"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#expand"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#focus"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#founder_of"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#graduated_from"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#graduated_in"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#its_Amazon_Web_Services_branch"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#largest_online_sales_company"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multi-national_technology_company"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#of_founder_is"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#participate_in"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#raised_in"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#received"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#richest_people"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#richest_person"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#richest_person_in"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shapes"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#startup"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#virtual_assistants"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#was_acquired_by"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#worked_on"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#world"/>
+        <Class IRI="#Bill_Gates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dual_bachelor_&apos;s_degrees"/>
+        <Class IRI="#Elon_Musk"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Amazon"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#American_internet_entrepreneur"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#BG"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Bill_Gates_Foundation"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Boring_Company"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Canadian_mother"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Compaq"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EM"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Forbes_Real_Time_Billionaires_ranking"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Grant_making_strategies"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#JB"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Neuralink"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Pretoria"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#South_Africa"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SpaceX"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#University"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#University_of_Pennsylvania"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Wall_Street"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attention"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#co-chair"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#co-chair_Melinda_Gates"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#degree_in_electrical_engineering_science"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#degrees_in_economics"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#event"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#founder"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#founder"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#internet_entrepreneur"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#issues"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#most_disadvantaged_people"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#multi-national_technology_company"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#national_events"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#technology_company"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#world"/>
+        <ObjectProperty IRI="#EM"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#world"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#1986"/>
+        <ObjectProperty IRI="#JB"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#opportunity_to_world_’s_most_disadvantaged_people"/>
+        <ObjectProperty IRI="#BG"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Amazon"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#American_internet_entrepreneur"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Bill_Gates_Foundation"/>
+        <Class IRI="#Bill_Gates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Boring_Company"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Canadian_mother"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Compaq"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Forbes_Real_Time_Billionaires_ranking"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Grant_making_strategies"/>
+        <Class IRI="#Bill_Gates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Neuralink"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Pretoria"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#South_Africa"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SpaceX"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#University"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#University_of_Pennsylvania"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wall_Street"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attention"/>
+        <Class IRI="#They"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co-chair"/>
+        <Class IRI="#Bill_Gates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co-chair_Melinda_Gates"/>
+        <Class IRI="#Bill_Gates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#degree_in_electrical_engineering_science"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#degrees_in_economics"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#event"/>
+        <Class IRI="#Bill_Gates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#founder"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#founder"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#internet_entrepreneur"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#issues"/>
+        <Class IRI="#Bill_Gates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#most_disadvantaged_people"/>
+        <Class IRI="#world"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#multi-national_technology_company"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#national_events"/>
+        <Class IRI="#They"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#technology_company"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#world"/>
+        <Class IRI="#Elon_Musk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#world"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#1986"/>
+        <Class IRI="#Jeffrey_Bezos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opportunity_to_world_’s_most_disadvantaged_people"/>
+        <Class IRI="#Bill_Gates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Amazon"/>
+        <Class IRI="#of_founder_is"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Boring_Company"/>
+        <Class IRI="#founder_of"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Canadian_mother"/>
+        <Class IRI="#born_to"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Compaq"/>
+        <Class IRI="#was_acquired_by"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Grant_making_strategies"/>
+        <Class IRI="#shapes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Neuralink"/>
+        <Class IRI="#founder_of"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Pretoria"/>
+        <Class IRI="#attended"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#South_Africa"/>
+        <Class IRI="#raised_in"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SpaceX"/>
+        <Class IRI="#chief_designer_of"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#University"/>
+        <Class IRI="#attended"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#University_of_Pennsylvania"/>
+        <Class IRI="#dual_bachelor_&apos;s_degrees"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Wall_Street"/>
+        <Class IRI="#worked_on"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attention"/>
+        <Class IRI="#focus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#co-chair_Melinda_Gates"/>
+        <Class IRI="#shapes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#degree_in_electrical_engineering_science"/>
+        <Class IRI="#degree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#degrees_in_economics"/>
+        <Class IRI="#dual_bachelor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#event"/>
+        <Class IRI="#participate_in"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#founder"/>
+        <Class IRI="#multi-national_technology_company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#issues"/>
+        <Class IRI="#focus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#multi-national_technology_company"/>
+        <Class IRI="#of_founder_is"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#national_events"/>
+        <Class IRI="#participate_in"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#technology_company"/>
+        <Class IRI="#of_founder_is"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#world"/>
+        <Class IRI="#richest_people"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#world"/>
+        <Class IRI="#richest_person_in"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#1986"/>
+        <Class IRI="#graduated_in"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#opportunity_to_world_’s_most_disadvantaged_people"/>
+        <Class IRI="#expand"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#He"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#He"/>
+        <Class IRI="#Bill_Gates"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
